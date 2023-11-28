@@ -74,3 +74,50 @@ section{
     color: var(--dark-cyan);
     border-radius: 0 0 8px 8px;
 }
+
+
+
+@media(min-width:920px){
+
+
+    body{
+        border: 1px solid red;
+        height: 100vh;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    main{
+        display: flex;
+        max-width: 57.5rem;
+   
+    }
+
+
+    p{
+        margin-bottom: 5.25rem;
+
+
+    }
+
+
+    a:hover{
+        background: transparent;
+        color: var(--gray);
+   
+    }
+
+
+    .sedans{
+        border-radius: 8px 0 0 8px;
+    }
+
+
+    .luxuosos{
+        border-radius: 0 8px 8px 0;
+    }
+}
